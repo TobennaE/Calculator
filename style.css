@@ -1,0 +1,41 @@
+html {
+    background-color: whitesmoke;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.titl {
+    display: flex;
+    color: gray;
+}
+.input {
+    min-width: 500px;
+    min-height: 100px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+.main-body {
+    min-width: 400px;
+    min-height: 500px;
+    background-color: rgb(182, 181, 181);
+    border-radius: 10px;
+    
+}
+.but-body{
+    text-align: center;
+    min-width: 400px;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    padding: 50px;
+    gap: 25px;
+}
+#but{
+    background-color: gray;
+
+}
