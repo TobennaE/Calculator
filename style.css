@@ -1,5 +1,6 @@
 html {
-    background-color: whitesmoke;
+    background-color: #B5E2FA;
+    
 }
 body {
     display: flex;
@@ -10,18 +11,22 @@ body {
 }
 .titl {
     display: flex;
-    color: gray;
+    color: #F9F7F3;
 }
 .input {
-    min-width: 500px;
+    min-width: 470px;
     min-height: 100px;
-    background-color: rgb(212, 212, 212);
+    background-color: #F9F7F3;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 100px;
 }
 .main-body {
     min-width: 400px;
     min-height: 500px;
-    background-color: rgb(182, 181, 181);
+    background-color: #AAADC4;
     border-radius: 10px;
     
 }
@@ -30,12 +35,25 @@ body {
     min-width: 400px;
     min-height: 500px;
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
-    padding: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 35px;
     gap: 25px;
 }
+.but-body div:nth-child(17), div:nth-child(18){
+    grid-column-end: span 2;
+    padding: 15px;
+}
 #but{
-    background-color: gray;
+    min-width: 0;
+    min-height: 0;
+    background-color: #E1DEE9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px gray;
+    font-weight: bolder;
+    font-size: 25px;
 
 }
